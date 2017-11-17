@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { MenuComponent } from './menu/menu.component'
+import { SharedService } from './shared.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  company = "FC's Company";
+  company : String;
+  rightMenuDisplayed : Boolean;  
+
+  constructor(ss : SharedService){
+	this.company = "FC Company";
+  	this.rightMenuDisplayed = false;
+  	this.ss = ss;
+  }
+
+  ngOnInit() {
+  	this.subscription = this.ss.getEmittedValue()
+      .subscribe(item => this.rightMenuDisplayed=item);
+  }
 }
