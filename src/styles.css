@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "DroidSerif";
+    src: url("/assets/fonts/DroidSerif-Regular.ttf");
+}
+
+@font-face {
+    font-family: "DroidSerif";
+    src: url("/assets/fonts/DroidSerif-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "DroidSerif";
+    src: url("/assets/fonts/DroidSerif-Italic.ttf");
+    font-style: italic;
+}
+@font-face {
+    font-family: "DroidSerif";
+    src: url("/assets/fonts/DroidSerif-BoldItalic.ttf");
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "SlimJoe";
+    src: url("/assets/fonts/Slim-Joe.otf");
+    font-weight: bold;
+    font-style: italic;
+}
+
+body{
+	padding-top: 3.5rem;
+	background-image: url(/assets/images/bg.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+
+.color-white{
+	color:#FFFFFF;
+}
