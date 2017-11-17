@@ -1,5 +1,8 @@
-.brand-font{
-	letter-spacing: 0.1em;
-	font-family: 'SlimJoe';
-	font-weight: 100;
+.navbar .navbar-brand {
+  font-weight: 600;
+  margin: 5px 0px;
+  padding: 20px 15px;
+  font-size: 20px;
+  font-family: "Slim-Joe";
+  letter-spacing: 0;
 }
