@@ -10,6 +10,8 @@ import { SharedService } from './shared.service';
 export class AppComponent {
   company : String;
   rightMenuDisplayed : Boolean;  
+  ss : SharedService;
+  subscription : null;
 
   constructor(ss : SharedService){
 	this.company = "FC Company";

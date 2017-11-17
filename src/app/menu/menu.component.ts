@@ -8,7 +8,8 @@ import { SharedService } from '../shared.service';
 })
 export class MenuComponent implements OnInit {  
   company : String;
-  rightMenuDisplayed : Boolean;  
+  rightMenuDisplayed : Boolean;    
+  ss : SharedService;
 
   constructor(ss: SharedService) { 
   	this.company = "FC Company";
