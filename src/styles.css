@@ -92,13 +92,7 @@ p {
   -ms-transform: translate3d(-150px, 0, 0);
   transform: translate3d(-150px, 0, 0);
 }
-.nav-open .navbar-collapse {
-  -webkit-transform: translate3d(-300px, 0, 0);
-  -moz-transform: translate3d(-300px, 0, 0);
-  -o-transform: translate3d(-300px, 0, 0);
-  -ms-transform: translate3d(-300px, 0, 0);
-  transform: translate3d(-300px, 0, 0);
-}
+
 .nav-open .navbar .container {
   -webkit-transform: translate3d(-200px, 0, 0);
   -moz-transform: translate3d(-200px, 0, 0);

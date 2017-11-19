@@ -4,7 +4,7 @@
   top: 0;
   height: 100%;
   width: 300px;
-  right: 300px;
+  right: 0;
   z-index: 1032;
   visibility: visible;
   background-color: #999;
@@ -14,16 +14,6 @@
   border-left: 1px solid #e3e3e3;
   padding-right: 0px;
   padding-left: 40px;
-  -webkit-transform: translate3d(300px, 0, 0);
-  -moz-transform: translate3d(300px, 0, 0);
-  -o-transform: translate3d(300px, 0, 0);
-  -ms-transform: translate3d(300px, 0, 0);
-  transform: translate3d(300px, 0, 0);
-  -webkit-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
-  -moz-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
-  -o-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
-  -ms-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
-  transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
 }
 .navbar-collapse ul {
   position: relative;
@@ -65,17 +55,6 @@
   width: 100%;
   position: absolute;
   background-color: #FFFFFF;
-  display: block;
-  content: "";
-  z-index: 1;
-}
-.navbar-collapse.has-image::after {
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background-color: rgba(17, 17, 17, 0.8);
   display: block;
   content: "";
   z-index: 1;

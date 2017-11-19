@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MenuComponent } from './menu/menu.component'
+
 import { SharedService } from './shared.service';
 
 @Component({
@@ -14,7 +14,7 @@ export class AppComponent {
   subscription : null;
 
   constructor(ss : SharedService){
-	this.company = "FC Company";
+	  this.company = "FC Company";
   	this.rightMenuDisplayed = false;
   	this.ss = ss;
   }
