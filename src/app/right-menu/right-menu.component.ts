@@ -21,7 +21,8 @@ import { SharedService } from '../shared.service';
 })
 export class RightMenuComponent implements OnInit {
   ss : SharedService;
-  rightMenuDisplayed : Boolean;
+  rightMenuDisplayed : Boolean;  
+  subscription : null;
 
   constructor(ss : SharedService) { 
   	this.ss = ss;
