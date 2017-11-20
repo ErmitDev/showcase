@@ -9,7 +9,8 @@ import { SharedService } from './shared.service';
 })
 export class AppComponent {
   company : String;
-  rightMenuDisplayed : Boolean;  
+  rightMenuDisplayed : Boolean;
+  isOutsideView : Boolean;  
   ss : SharedService;
   subscription : null;
   rowInView : Array;
@@ -19,16 +20,24 @@ export class AppComponent {
   	this.rightMenuDisplayed = false;
   	this.ss = ss;
     this.rowInView = [false, false, false];
+    this.isOutsideView = false;
   }
 
   ngOnInit() {
-  	this.subscription = this.ss.getEmittedValue()
+  	this.subscription = this.ss.getIfMenuDisplayed()
       .subscribe(item => this.rightMenuDisplayed=item);
   }
 
-  inview = function(event, number){
+  animateRow = function(event, number){
     if(this.rowInView[number] != event.status){
       this.rowInView[number] = event.status;
+    }
+  }
+
+  animateTopMenu = function(event){
+    if(event.isOutsideView != this.isOutsideView){
+      this.isOutsideView = event.isOutsideView;
+      this.ss.animateTopMenu(event.isOutsideView);
     }
   }
 

@@ -30,7 +30,7 @@ export class RightMenuComponent implements OnInit {
   }
 
   ngOnInit() {
-  	this.subscription = this.ss.getEmittedValue()
+  	this.subscription = this.ss.getIfMenuDisplayed()
       .subscribe(item => this.rightMenuDisplayed=item);
   }
 

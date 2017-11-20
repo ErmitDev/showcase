@@ -3,15 +3,25 @@ import { Injectable, Output, EventEmitter } from '@angular/core';
 @Injectable()
 export class SharedService {
   @Output() fire: EventEmitter<any> = new EventEmitter();
+  @Output() fire2: EventEmitter<any> = new EventEmitter();
   constructor() { }
 
-  change(bool) {
-     this.fire.emit(bool);
-   }
+	toggleMenuDisplayed(bool) {
+		this.fire.emit(bool);
+	}
 
-   getEmittedValue() {
-     return this.fire;
-   }
+	getIfMenuDisplayed() {
+		return this.fire;
+	}
+
+	animateTopMenu(bool){
+		this.fire2.emit(bool);
+	}
+
+	getIfIsOutsideView() {
+		return this.fire2;
+	}
+	
 
 
 }
