@@ -11,6 +11,7 @@ export class MenuComponent implements OnInit {
   rightMenuDisplayed : Boolean;
   isOutsideView : Boolean;    
   ss : SharedService;
+  subscription : null;
 
   constructor(ss: SharedService) { 
   	this.company = "FC Company";

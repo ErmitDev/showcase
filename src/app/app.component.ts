@@ -13,7 +13,7 @@ export class AppComponent {
   isOutsideView : Boolean;  
   ss : SharedService;
   subscription : null;
-  rowInView : Array;
+  rowInView : Array<Boolean>;
 
   constructor(ss : SharedService){
 	  this.company = "FC Company";
