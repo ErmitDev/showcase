@@ -124,11 +124,14 @@
   color: #777777;
 }
 
-.title {
-  text-align: center;
+.title{
   margin-bottom: 50px;
 }
-.title p {
+
+.title, .card {
+  text-align: center;
+}
+.title p, .card p {
   color: #777777;
 }
 
@@ -158,4 +161,35 @@
 }
 .animate{
   opacity: 1;  
+}
+
+.section-2 .card{
+  border:none;
+}
+
+.section-2 .icon{
+  font-size: 75px;
+  line-height: 75px;
+  color: #c5a47e;
+  margin-bottom: 10px;
+}
+
+.section-2 .title{
+  margin-bottom: 50px;
+}
+
+.card .icon {
+  font-size: 60px;
+  line-height: 60px;
+}
+.card .icon ~ h3 {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.card p {
+  font-size: 1em;
+  min-height: 100px;
+}
+.card h3 {
+  text-transform: capitalize;
 }
