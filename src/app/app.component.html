@@ -2,7 +2,9 @@
 <div [ngClass]="{'nav-open': rightMenuDisplayed}">
   <app-menu></app-menu>
   <div class="wrapper">
-    <div class="section section-header" in-view (inview)="animateTopMenu($event)">
+    <div class="section section-header" 
+            in-view (inview)="animateTopMenu($event)"  
+            [offset]="[0, 0, -65, 0]">
       <div class="parallax pattern-image">
         <img src="/assets/images/bg.jpg">
       </div>
@@ -18,9 +20,9 @@
           </div>
           <p>
             {{company}} allow you to design, together, your own Eden.
-          </p>
-        </div>
-      </div>    
+          </p> 
+        </div>                 
+      </div>        
     </div>
     <div class="section section-1" id="about">
       <div class="text-area">
