@@ -71,8 +71,25 @@ p {
   font-weight: 400;
   margin: 0 0 .75em;
 }
+.btn {
+    border-radius: 2px;
+    border-width: 1px;
+    font-family: "Verlag-Book","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    line-height: 1;
+    cursor: pointer;
+}
+.btn-lg {
+    font-size: 18px;
+    border-radius: 6px;
+    padding: 14px 30px;
+    font-weight: 400;
+}
 .color-white{
 	color:#FFFFFF;
+}
+.text-gray{
+  color:#777777;
 }
 .wrapper {
   -webkit-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);

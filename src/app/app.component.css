@@ -215,3 +215,30 @@ a.scroll-arrow i:hover, a.scroll-arrow i:focus {
 a.scroll-arrow:hover {
   opacity: 1;
 }
+.section-3 {
+  position: relative;
+  overflow: hidden;
+  margin-top: 30px;
+  padding-bottom: 0;
+}
+.footer .copyright {
+    color: #777777;
+    padding: 10px 15px;
+    margin: 15px 3px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Droid Serif', "Helvetica Neue", "Helvetica","Arial";
+}
+.footer {
+    background-color: #FFFFFF;
+    line-height: 20px;
+    border-top: 1px solid #DDDDDD;
+}
+.footer-color-black, .footer-transparent {
+    background-color: rgba(30, 30, 30, 0.97);
+    color: #DDDDDD;
+}
+.footer {
+    overflow: hidden;
+}

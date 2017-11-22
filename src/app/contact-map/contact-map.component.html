@@ -1,0 +1,29 @@
+<div class="contact-container">
+	<div class="address-container">
+		<div class="address">
+			<h4>Where to meet ?</h4>
+			<p class="text-gray">
+				11 Chemin Neuf <br>
+				Biot, France
+			</p>
+			<h4>Want to say hello ?</h4>
+			<a class="btn btn-black btn-contact">
+				CONTACT US
+				<i class="fa fa-paper-plane"></i>
+			</a>
+			<h4>Want to share ?</h4>
+			<div class="col-md-6" style="float:left">
+				<button class="btn btn-lg btn-contact btn-block btn-share"><i class="fa fa-facebook-square"></i>Facebook</button>
+			</div>
+			<div class="col-md-6" style="float:left">
+				<button class="btn btn-lg btn-contact btn-block btn-share"><i class="fa fa-twitter"></i>Twitter</button>
+			</div>
+		</div>
+	</div>
+	<div class="map">
+		<agm-map [latitude]="lat" [longitude]="lng" [zoomControl]=false [zoom]=14 [scrollwheel]=false>
+		  	<agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+		</agm-map>
+	</div>
+</div>
+
