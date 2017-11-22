@@ -2,9 +2,10 @@ import { Injectable, Output, EventEmitter } from '@angular/core';
 
 @Injectable()
 export class SharedService {
-  @Output() fire: EventEmitter<any> = new EventEmitter();
-  @Output() fire2: EventEmitter<any> = new EventEmitter();
-  constructor() { }
+	@Output() fire: EventEmitter<any> = new EventEmitter();
+	@Output() fire2: EventEmitter<any> = new EventEmitter();
+
+	constructor() { }
 
 	toggleMenuDisplayed(bool) {
 		this.fire.emit(bool);
@@ -21,7 +22,5 @@ export class SharedService {
 	getIfIsOutsideView() {
 		return this.fire2;
 	}
-	
-
 
 }

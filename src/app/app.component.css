@@ -260,3 +260,59 @@ a.scroll-arrow:hover {
 .footer {
     overflow: hidden;
 }
+.btn-group-custom{  
+  position: absolute;
+  bottom: 20px;
+}
+.btn {
+    border-radius: 2px;
+    border-width: 1px;
+    font-family: "Verlag-Book","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    line-height: 1;
+}
+.btn-black {
+  background-color: #434547;
+  border-color: #434547;
+  color: white !important;
+  opacity: 1;
+  line-height: 1em;
+  position: relative;
+  padding: 16px 44px;
+  letter-spacing: 2px;
+}
+.btn-black i {
+  position: absolute;
+  top: 14px;
+  right: 0.25em;
+  opacity: 0;
+}
+.btn-black:hover, .btn-black:focus {
+  background-color: #343434;
+  border-color: #343434;
+  color: white !important;
+  padding: 16px 54px 16px 34px;
+}
+.btn-black:hover i, .btn-black:focus i {
+  right: 26px;
+  opacity: 1;
+}
+.btn-share{
+  color: #444444;
+  border-color: #444444;
+  font-weight: 400; 
+  background-color:white; 
+}
+.btn-langue{
+  float:left;
+  padding-right: 0;
+  padding-left: 0;
+}
+.btn-share:focus{
+  -webkit-box-shadow: none; 
+  box-shadow: none; 
+}
+.btn-langue-active{
+  background-color: #444444;
+  color: white;
+}

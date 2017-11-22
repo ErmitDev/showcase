@@ -18,11 +18,19 @@
               ∎
             </div>
           </div>
-          <p>
-            {{company}} allow you to design, together, your own Eden.
+          <p translate [translateParams]="{company: company}">
+            Subtitle
           </p> 
         </div>
         <div>
+          <div class="btn-group-custom">
+            <div class="col-md-6" class="btn-langue">
+              <button class="btn btn-lg btn-contact btn-block btn-share" [ngClass]="{'btn-langue-active': isFrLangueSelected}" (click)="selectLanguage('fr')">Français</button>
+            </div>
+            <div class="col-md-6" class="btn-langue">
+              <button class="btn btn-lg btn-contact btn-block btn-share" [ngClass]="{'btn-langue-active': !isFrLangueSelected}" (click)="selectLanguage('en')">English</button>
+            </div>
+          </div>          
           <a class="scroll-arrow" [scrollTo]="'#about'" [scrollDuration]="700">
             <i class="fa fa-angle-down"></i>
           </a>
@@ -34,14 +42,14 @@
         <div class="container">
           <div class="row">
             <div class="title">
-              <h2>About {{company}}</h2>
+              <h2 translate [translateParams]="{company: company}">About Company</h2>
               <div class="separator-container">
                 <div class="separator line-separator">
                   ∎
                 </div>
               </div>
-              <p class="large">
-                {{company}} is a startup that designs for you a custom exterior design project and accompany you for the realization. As a result of our work, you can do your garden yourself by following our step by step advice or consulting selected landscape companies near you.
+              <p class="large" translate [translateParams]="{company: company}">
+                Introduction section 1                
               </p>
             </div>
           </div>
@@ -95,7 +103,7 @@
         <div class="container">
           <div class="row">
             <div class="title">
-              <h2>What we do</h2>
+              <h2 translate>What we do</h2>
               <div class="separator-container">
                 <div class="separator line-separator">
                   ∎
@@ -108,8 +116,8 @@
                       <div class="icon">
                         <i class="fa fa-pencil-square-o"></i>
                       </div>
-                      <h3>Design Landscape</h3>
-                      <p>Our main goal is to collaborate with you to find out the garden you wish, and provides hand-drawing and computer drawing to visualize the possibilities.</p>
+                      <h3 translate>Design Landscape</h3>
+                      <p translate>Design Landscape Text</p>
                   </div>
                 </div>
                 <div class="col-md-4">
@@ -117,8 +125,8 @@
                       <div class="icon">
                         <i class="fa fa-camera-retro"></i>
                       </div>
-                      <h3>Provide Support</h3>
-                      <p>With the help of camera, drone and computer, we provide many possibilities to display your ideas directly in your current garden.</p>
+                      <h3 translate>Provide Support</h3>
+                      <p translate>Provide Support Text</p>
                   </div>
                 </div>
                 <div class="col-md-4">
@@ -126,8 +134,8 @@
                       <div class="icon">
                         <i class="fa fa-pagelines"></i>
                       </div>
-                      <h3>Green Expertise</h3>
-                      <p>Passionated and expert, we will give you the best advices for the choice of plants, their disposition and their harmony.</p>
+                      <h3 translate>Green Expertise</h3>
+                      <p translate>Green Expertise Text</p>
                   </div>
                 </div>
             </div>
@@ -140,14 +148,14 @@
         <div class="container">
           <div class="row">
             <div class="title">
-              <h2>About {{company}}</h2>
+              <h2 translate [translateParams]="{company: company}">About Company</h2>
               <div class="separator-container">
                 <div class="separator line-separator">
                   ∎
                 </div>
               </div>
-              <p class="large">
-                {{company}} is a startup that designs for you a custom exterior design project and accompany you for the realization. As a result of our work, you can do your garden yourself by following our step by step advice or consulting selected landscape companies near you.
+              <p class="large" translate [translateParams]="{company: company}">
+                Introduction section 1                
               </p>
             </div>
           </div>
@@ -161,8 +169,8 @@
     
     <footer class="footer footer-color-black">
       <div class="container">
-        <div class="copyright">
-          © 2017 Bertrand Samson, page inspired by Rubik
+        <div class="copyright" translate>
+          Contribution
         </div>
       </div>
     </footer>

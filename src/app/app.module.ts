@@ -5,6 +5,10 @@ import { ScrollToModule } from 'ng2-scroll-to-el';
 import { NgInviewModule } from 'angular-inport'; 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AgmCoreModule } from '@agm/core';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
@@ -12,6 +16,9 @@ import { RightMenuComponent } from './right-menu/right-menu.component';
 import { SharedService } from './shared.service';
 import { ContactMapComponent } from './contact-map/contact-map.component';
 
+export function createTranslateLoader(http: HttpClient) {
+    return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+}
 
 @NgModule({
   declarations: [
@@ -28,6 +35,15 @@ import { ContactMapComponent } from './contact-map/contact-map.component';
     ScrollToModule.forRoot(),
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyDExQqWKJ4ujRUOsUnfdTV1k79iUE9fnOo'
+    }),
+    FormsModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: (createTranslateLoader),
+        deps: [HttpClient]
+      }
     })
   ],
   providers: [SharedService],

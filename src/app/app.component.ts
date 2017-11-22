@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 import { SharedService } from './shared.service';
 
@@ -10,17 +11,20 @@ import { SharedService } from './shared.service';
 export class AppComponent {
   company : String;
   rightMenuDisplayed : Boolean;
-  isOutsideView : Boolean;  
+  isOutsideView : Boolean;
+  isFrLangueSelected : Boolean = true;  
   ss : SharedService;
   subscription : null;
   rowInView : Array<Boolean>;
 
-  constructor(ss : SharedService){
+  constructor(ss : SharedService, translate: TranslateService){
 	  this.company = "FC Company";
   	this.rightMenuDisplayed = false;
   	this.ss = ss;
     this.rowInView = [false, false, false];
     this.isOutsideView = false;
+    translate.setDefaultLang('fr');
+    
   }
 
   ngOnInit() {
@@ -38,6 +42,15 @@ export class AppComponent {
     if(event.isOutsideView != this.isOutsideView){
       this.isOutsideView = event.isOutsideView;
       this.ss.animateTopMenu(event.isOutsideView);
+    }
+  }
+
+  selectLanguage = function(language){
+    translate.use(language);
+    if(language != 'fr'){
+      this.isFrLangueSelected = false;
+    }else{
+      this.isFrLangueSelected = true;
     }
   }
 
