@@ -16,6 +16,7 @@ export class AppComponent {
   ss : SharedService;
   subscription : null;
   rowInView : Array<Boolean>;
+  translate : TranslateService;
 
   constructor(ss : SharedService, translate: TranslateService){
 	  this.company = "FC Company";
