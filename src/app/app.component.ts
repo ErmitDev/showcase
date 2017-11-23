@@ -24,7 +24,8 @@ export class AppComponent {
   	this.ss = ss;
     this.rowInView = [false, false, false];
     this.isOutsideView = false;
-    translate.setDefaultLang('fr');
+    this.translate = translate;
+    this.translate.setDefaultLang('fr');
     
   }
 
@@ -47,7 +48,7 @@ export class AppComponent {
   }
 
   selectLanguage = function(language){
-    translate.use(language);
+    this.translate.use(language);
     if(language != 'fr'){
       this.isFrLangueSelected = false;
     }else{
