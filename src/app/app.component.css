@@ -316,3 +316,11 @@ a.scroll-arrow:hover {
   background-color: #444444;
   color: white;
 }
+.btn-group-custom .btn-langue .btn-share:hover{
+  background-color:#c5a47e;
+  color: white;
+}
+.btn-group-custom .btn-langue .btn-langue-active:hover{  
+  background-color: #444444;
+  color: white;
+}
