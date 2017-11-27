@@ -148,15 +148,18 @@
         <div class="container">
           <div class="row">
             <div class="title">
-              <h2 translate [translateParams]="{company: company}">About Company</h2>
+              <h2 translate>Slider</h2>
               <div class="separator-container">
                 <div class="separator line-separator">
                   ∎
                 </div>
               </div>
-              <p class="large" translate [translateParams]="{company: company}">
-                Introduction section 1                
-              </p>
+              <div id="comparison">
+                <figure>
+                  <div id="divisor"  [ngStyle]="{'width.%': divisorWidth}"></div>
+                </figure>
+                <input type="range" min="0" max="100" [(ngModel)]="divisorWidth">
+              </div>
             </div>
           </div>
         </div>

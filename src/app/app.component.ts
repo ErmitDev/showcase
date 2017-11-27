@@ -8,15 +8,16 @@ import { SharedService } from './shared.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent{
   company : String;
   rightMenuDisplayed : Boolean;
   isOutsideView : Boolean;
   isFrLangueSelected : Boolean = true;  
   ss : SharedService;
-  subscription : null;
+  subscription : any;
   rowInView : Array<Boolean>;
   translate : TranslateService;
+  divisorWidth : Number = 50;
 
   constructor(ss : SharedService, translate: TranslateService){
 	  this.company = "FC Company";
@@ -25,8 +26,7 @@ export class AppComponent {
     this.rowInView = [false, false, false];
     this.isOutsideView = false;
     this.translate = translate;
-    this.translate.setDefaultLang('fr');
-    
+    this.translate.setDefaultLang('fr');    
   }
 
   ngOnInit() {
@@ -55,6 +55,5 @@ export class AppComponent {
       this.isFrLangueSelected = true;
     }
   }
-
 
 }
