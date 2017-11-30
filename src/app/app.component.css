@@ -215,7 +215,7 @@ a.scroll-arrow i:hover, a.scroll-arrow i:focus {
 a.scroll-arrow:hover {
   opacity: 1;
 }
-.section-3, .btn-group-custom {
+.section-4, .btn-group-custom {
   position: relative;
   overflow: hidden;
   margin-top: 30px;
@@ -226,7 +226,7 @@ a.scroll-arrow:hover {
   -ms-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
   transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
 }
-.nav-open .section-3, .nav-open .btn-group-custom{
+.nav-open .section-4, .nav-open .btn-group-custom{
   -webkit-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
   -moz-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
   -o-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
