@@ -361,6 +361,7 @@ input[type=range]{
   top: -2rem; left: -2%;
   background-color: rgba(255,255,255,0.1);
   width: 102%; 
+  cursor:ew-resize;
 }
 input[type=range]:focus { 
   outline: none; 
@@ -398,4 +399,8 @@ input[type=range]:focus::-webkit-slider-thumb {
 }
 input[type=range]:focus::-moz-range-thumb {
   background: rgba(255,255,255,0.5);
+}
+.helper-text{
+  color:#777777;
+  font-style: italic;
 }

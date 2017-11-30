@@ -143,7 +143,7 @@
         </div>
       </div>
     </div>
-    <div class="section">
+    <div class="section" id="example">
       <div class="text-area">
         <div class="container">
           <div class="row">
@@ -156,9 +156,12 @@
               </div>
               <div id="comparison">
                 <figure>
-                  <div id="divisor"  [ngStyle]="{'width.%': divisorWidth}"></div>
+                  <div id="divisor" [ngStyle]="{'width.%': divisorWidth}"></div>
                 </figure>
                 <input type="range" min="0" max="100" [(ngModel)]="divisorWidth">
+              </div>
+              <div class="helper-text">
+                <i class="fa fa-info-circle"></i> <span translate>Slider Tips</span>
               </div>
             </div>
           </div>
