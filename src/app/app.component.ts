@@ -20,7 +20,7 @@ export class AppComponent{
   divisorWidth : Number = 50;
 
   constructor(ss : SharedService, translate: TranslateService){
-	  this.company = "FC Company";
+	  this.company = "Graphite Paysage";
   	this.rightMenuDisplayed = false;
   	this.ss = ss;
     this.rowInView = [false, false, false];

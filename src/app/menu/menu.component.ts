@@ -14,7 +14,7 @@ export class MenuComponent implements OnInit {
   subscription : null;
 
   constructor(ss: SharedService) { 
-  	this.company = "FC Company";
+  	this.company = "Graphite Paysage";
   	this.rightMenuDisplayed = false;
     this.isOutsideView = false;
   	this.ss = ss;

@@ -16,15 +16,25 @@ agm-map{
 .contact-container .address-container {
 	position: absolute;
 	left: 0;
-	height: 570px;
 	z-index: 3;
 	padding: 20px 20px 20px 60px;
 	width: 28%;
 	background-color: #FFFFFF;
-	height: 470px;
 	top: 50px;
 	padding: 20px;
 }
+
+@media(min-width: 1395px){
+  .contact-container .address-container{
+    height: 470px;
+  }
+}
+@media(max-width: 1394px){
+  .contact-container .address-container{
+    height: 500px;
+  }
+}
+
 .contact-container .address-container .address{
 	text-align: center;    
 	margin-top: 40px;
