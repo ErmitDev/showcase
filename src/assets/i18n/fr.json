@@ -1,22 +1,44 @@
 {
 	"About" : "À propos de",
 	"About Company" : "À propos de {{company}}",
+	"Projects" : "Professionel / Particulier",
+	"Realisations" : "Mes réalisations",
 	"What we do" : "Ce que je fais",
+	"Slider" : "Avant / Après",
+	"Resume" : "Mon parcours",
 	"Contact" : "Me contacter",
+
 	"Subtitle" : "Ensemble, construisons votre projet",
-	"Introduction section 1": "Dessinatrice paysagiste ayant travaillé pour le domaine public et les entreprises aussi bien que pour les particuliers, je vous assisterai pour tous vos projets d'aménagement extérieur. Nous monterons ensemble votre dossier, puis je vous le présenterai sous différentes formes : photomontage, dessin, plan, vue 3D, palette végétale. Ainsi, vous aurez un dossier complet, donnant une vue générale du projet.",
-	"Design Landscape" : "Imaginer le paysage",	
-	"Provide Support" : "Visualisation assistée",
-	"Green Expertise" : "Expertise des végétaux",
-	"Design Landscape Text" : "Mon objectif est de collaborer avec vous, pour réfléchir au jardin le plus adapté et vous fournir les dessins (fait main ou assisté par ordinateur) et ainsi vous donner une visualisation concrète des différentes possibilités.",
-	"Provide Support Text" : "A partir d'un plan ou directement via une photo du jardin, je pourrai vous montrer les différentes opportunités qui s'offrent à vous.",
-	"Green Expertise Text" :"Je vous donnerai tous les conseils pour le choix des plantes, afin que le projet soit adapté au climat et que les végétaux soient en harmonie.",
+	"Introduction section 1": "Dessinatrice paysagiste ayant travaillé pour le domaine publique ainsi que pour le privé, je vous assisterai pour tous vos projets d'aménagements extérieurs. Nous ferons ensemble un diagnostic de l'existant et un point sur vos besoins. Je pourrai ainsi monter un dossier complet vous présentant le projet. Basée dans la région PACA, je pourrai me déplacer pour les projets concernant cette région. Il est aussi possible de travailler à distance via photos et plans.",
+	
+	"Professional Text":"Si votre entreprise n'a pas d'infographiste et que vous voulez présenter un projet structuré et imagé à vos clients, je vous propose mes services. Nous travaillerons ensemble afin de constituer un dossier complet :",
+	"Professional Text Elem 1" : "Plans et coupes techniques",
+	"Professional Text Elem 2" : "Plans texturés",
+	"Professional Text Elem 3" : "Photomontages",
+	"Professional Text Elem 4" : "Vues 3D",
+	"Professional Text Elem 5" : "Dessins du projet",
+	"Professional Text Elem 6" : "Palettes végétales",
+
+ 	"Private Text":"Vous voulez aménager votre jardin ? Vous cherchez des idées ? Je suis là pour vous aider dans la conception de cet espace de vie. Grâce à un suivi personnalisé nous construirons votre projet. Une fois le dossier finalisé :",
+ 	"Private Text Elem 1":"Je vous suggère des entreprises et fais faire des devis pour trouver le choix le plus intéressant pour vous.",
+	"Private Text Elem 2":"ou",
+	"Private Text Elem 3":"Je vous fourni l'appui technique pour réaliser les travaux vous même.",
+
+	"Diagnostic Title" : "Diagnostic",	
+	"Diagnostic Text" : "J'analyse le terrain existant ainsi que ses contraintes. Je prends en compte vos envies et vos besoins, pour créer un jardin en harmonie avec vos attentes.",
+	
+	"Project Title" : "Projet",
+	"Project Text" : "Grâce à différents supports ( plans, photomontages, etc. ) vous visualiserez le projet et appréhenderez mieux ce nouvel espace.",
+	
+	"Advice Title" : "Conseils techniques",
+	"Advice Text" :"Je vous accompagnerai dans le choix des végétaux, pour que le projet soit adapté au climat, et je vous guiderai dans le choix des matériaux pour un espace harmonieux.",
+	
+	"Resume Text" : "Après un bac Scientifique, j'ai effectué un BTSA Aménagement du Paysage au lycée horticole d'Evreux. Pour aller plus loin dans ce domaine, j'ai poursuivi mes études avec une licence professionnelle Aménagement du paysage option infographie. Après une expérience d'environ 3 ans d'infographiste pour des projets du domaine public en Normandie, j'ai déménagé dans les Alpes-Maritimes. J'y ai travaillé 3 ans en tant que dessinatrice mais aussi en tant qu'ouvrier paysagiste, ce qui m'a permis d'approfondie mes connaissances techniques. Forte de toutes ces expériences, j'ai décidé de créer Graphite Paysage pour relever plus de défis et vous accompagner dans tous vos projets.",
+
 	"Contribution" : "© 2018 Bertrand Samson",
 	"Where to meet" : "Où me rencontrer ?",
 	"Want to say hello" : "Vous voulez parler de votre projet ?",
 	"Want to share" : "Envie de partager ?",
 	"CONTACT US" : "CONTACTEZ MOI",
-	"Slider" : "Exemple de notre travail",
-	"Example" : "Exemple",
 	"Slider Tips" : "Vous pouvez déplacer le curseur pour voir l'effet avant / après"
 }

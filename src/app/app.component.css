@@ -31,7 +31,7 @@
   display: block;
 }
 .section .text-area {
-  padding: 4.375em 0;
+  padding: 4.375em 0 0 0;
   position: relative;
   z-index: 3;
   display: block;
@@ -118,7 +118,7 @@
 }
 .pattern-image {
   width: 100%;
-  background-size: 100%;
+  background-size: 1920px;
 }
 .section-we-are-1 p {
   color: #777777;
@@ -132,8 +132,12 @@
 .title p, .card p {
   color: #777777;
 }
+.projet-container{
+  text-align: center;  
+  color: #777777; 
+}
 .card img {
-    max-width: 100%;
+  max-width: 100%;
 }
 .card{
   margin-bottom: 30px

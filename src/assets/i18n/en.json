@@ -1,22 +1,44 @@
 {
 	"About" : "About",
 	"About Company" : "About {{company}}",
+	"Projects" : "Professionel / Particulier",
+	"Realisations" : "My realizations",
 	"What we do" : "What I do",
+	"Slider" : "Before / After",
+	"Resume" : "Mon parcours",
 	"Contact" : "Contact Me",
+
 	"Subtitle" : "Together, design your project",
 	"Introduction section 1": "As a landscape designer, I worked for public and private partners. I will assist you for all your landscaping projects. Together, we will build your project, then, I will show you the render in several formats : photo montage, drawing, plan, 3D view, plant pallet. So, you will have a complete folder, giving you a global overview of your project.",
-	"Design Landscape" : "Design Landscape",
-	"Provide Support" : "Provide Support",
-	"Green Expertise" : "Green Expertise",
-	"Design Landscape Text" : "My goal is to collaborate with you, to think about the most adapted gardin, and provide you drawings (hand drawing or modelised by computer) and then, give you a concrete visualisation of possibilities.",
-	"Provide Support Text" : "From plan or directly from a picture of your garden, I can show you a lot of possibilities.",
-	"Green Expertise Text" :"I will give you all the advices to choose, in order to have plants well adapted between each other and well adapted to the climat.",
+	
+	"Professional Text":"Si votre entreprise n'a pas d'infographiste et que vous voulez présenter un projet structuré et imagé à vos clients, je vous propose mes services. Nous travaillerons ensemble afin de constituer un dossier complet :",
+	"Professional Text Elem 1" : "Plans et coupes techniques",
+	"Professional Text Elem 2" : "Plans texturés",
+	"Professional Text Elem 3" : "Photomontages",
+	"Professional Text Elem 4" : "Vues 3D",
+	"Professional Text Elem 5" : "Dessins du projet",
+	"Professional Text Elem 6" : "Palettes végétales",
+
+ 	"Private Text":"Vous voulez aménager votre jardin ? Vous cherchez des idées ? Je suis là pour vous aider dans la conception de cet espace de vie. Grâce à un suivi personnalisé nous construirons votre projet. Une fois le dossier finalisé :",
+ 	"Private Text Elem 1":"Je vous suggère des entreprises et fais faire des devis pour trouver le choix le plus intéressant pour vous.",
+	"Private Text Elem 2":"ou",
+	"Private Text Elem 3":"Je vous fourni l'appui technique pour réaliser les travaux vous même.",
+
+	"Diagnostic Title" : "Diagnostic",	
+	"Diagnostic Text" : "J'analyse le terrain existant ainsi que ses contraintes. Je prends en compte vos envies et vos besoins, pour créer un jardin en harmonie avec vos attentes.",
+	
+	"Project Title" : "Projet",
+	"Project Text" : "Grâce à différents supports ( plans, photomontages, etc. ) vous visualiserez le projet et appréhenderez mieux ce nouvel espace.",
+	
+	"Advice Title" : "Conseils techniques",
+	"Advice Text" :"Je vous accompagnerai dans le choix des végétaux, pour que le projet soit adapté au climat, et je vous guiderai dans le choix des matériaux pour un espace harmonieux.",
+	
+	"Resume Text" : "Après un bac Scientifique, j'ai effectué un BTSA Aménagement du Paysage au lycée horticole d'Evreux. Pour aller plus loin dans ce domaine, j'ai poursuivi mes études avec une licence professionnelle Aménagement du paysage option infographie. Après une expérience d'environ 3 ans d'infographiste pour des projets du domaine public en Normandie, j'ai déménagé dans les Alpes-Maritimes. J'y ai travaillé 3 ans en tant que dessinatrice mais aussi en tant qu'ouvrier paysagiste, ce qui m'a permis d'approfondie mes connaissances techniques. Forte de toutes ces expériences, j'ai décidé de créer Graphite Paysage pour relever plus de défis et vous accompagner dans tous vos projets.",
+
 	"Contribution" : "© 2018 Bertrand Samson",
 	"Where to meet" : "Where to meet ?",
 	"Want to say hello" : "Want to talk about your project ?",
 	"Want to share" : "Want to share ?",
 	"CONTACT US" : "CONTACT ME",
-	"Slider" : "Example of our work",
-	"Example" : "Example",
 	"Slider Tips" : "You can move the cursor to see the before / after effect"
 }
