@@ -23,7 +23,7 @@ export class AppComponent{
 	  this.company = "Graphite Paysage";
   	this.rightMenuDisplayed = false;
   	this.ss = ss;
-    this.rowInView = [false, false, false];
+    this.rowInView = [false, false, false, false];
     this.isOutsideView = false;
     this.translate = translate;
     this.translate.setDefaultLang('fr');    

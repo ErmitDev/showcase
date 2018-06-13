@@ -1,6 +1,6 @@
-# TODO
+# TODO (par ordre de priorité)
 
-* Vérifier les traductions
+* Amélioration de la carte "Mon parcours"
 * Ajuster la partie Pro / Particulier
-* Ajuster la partie mon parcours (ajout photo)
+* Vérifier les traductions
 * Correction de l'affichage quand le menu s'ouvre (décalage sur la gauche trop important sur petit écran)
