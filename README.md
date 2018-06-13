@@ -1,6 +1,5 @@
 # TODO (par ordre de priorité)
 
-* Mettre en valeur titre / sous-titre sur la première page
 * Changer les images
 * Amélioration de la carte "Mon parcours"
 * Ajuster la partie Pro / Particulier

@@ -33,11 +33,9 @@
 }
 .navbar-transparent{
   color: #FFFFFF;
-  background-color: transparent;
+  background-color: #ffffff3b;
+  text-shadow: 1px 1px 1px #343434;
 }
-/*.navbar-transparent .navbar-toggle{
-  color: #FFFFFF;
-}*/
 .navbar .navbar-toggle .icon-bar {
   display: block;
   position: relative;
