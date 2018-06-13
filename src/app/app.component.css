@@ -142,6 +142,15 @@
 .card{
   margin-bottom: 30px
 }
+.section-projet .card ul{
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 14px;
+}
+.section-projet .card span{
+  text-align: justify;
+  text-indent: 10%;
+}
 .add-animation{
   opacity: 0;
   -webkit-transition: all 0.7s ease-out 0.6s;
@@ -160,7 +169,7 @@
 .animate{
   opacity: 1;  
 }
-.section-2 .card{
+.section-2 .card, .section-projet .card{
   border:none;
 }
 .section-2 .icon{
@@ -178,11 +187,13 @@
 }
 .card .icon ~ h3 {
   margin-top: 5px;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 }
 .card p {
   font-size: 1em;
-  min-height: 100px;
+  min-height: 100px;    
+  text-align: justify;
+  text-indent: 10%;
 }
 .card h3 {
   text-transform: capitalize;
