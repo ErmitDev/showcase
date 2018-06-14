@@ -1,7 +1,5 @@
 .navbar .navbar-brand {
-  font-weight: 600;
-  margin: 5px 0px;
-  font-size: 20px;
+  font-size: 1.5vh;
   font-family: "Slim-Joe";
   letter-spacing: 0;
 }
@@ -15,18 +13,30 @@
 .navbar.navbar-fixed-top {
   transition: all .5s .1s;
 }
+@media (max-width: 575px) { 
+  .navbar.navbar-default .container{
+    margin: 0;
+  }
+}
 .navbar-toggle {
   outline: 0 !important;
   border: 0;
   background-color: transparent;
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   display: block;
   position: relative;
   float: right;
   margin-top: 8px;
   color: #343434;
   cursor: pointer;
+}
+.navbar .navbar-toggle .icon-bar {
+  display: block;
+  position: relative;
+  width: 24px;
+  height: 2px;
+  border-radius: 1px;
 }
 .navbar-toggle:hover, .navbar-toggle:focus {
 	background-color: transparent !important;
@@ -35,13 +45,6 @@
   color: #FFFFFF;
   background-color: #ffffff3b;
   text-shadow: 1px 1px 1px #343434;
-}
-.navbar .navbar-toggle .icon-bar {
-  display: block;
-  position: relative;
-  width: 24px;
-  height: 2px;
-  border-radius: 1px;
 }
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
