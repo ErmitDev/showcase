@@ -18,21 +18,21 @@
               ∎
             </div>
           </div>
-          <p translate [translateParams]="{company: company}">
+          <p class="subtitle" translate [translateParams]="{company: company}">
             Subtitle
           </p> 
         </div>
-        <div>
+        <div class="bottom-line">
           <div class="btn-group-custom">
             <div class="col-md-6" class="btn-langue">
-              <button class="btn btn-lg btn-contact btn-block btn-share" [ngClass]="{'btn-langue-active': isFrLangueSelected}" (click)="selectLanguage('fr')">FR</button>
+              <button class="btn btn-contact btn-block btn-share" [ngClass]="{'btn-langue-active': isFrLangueSelected}" (click)="selectLanguage('fr')">FR</button>
             </div>
             <div class="col-md-6" class="btn-langue">
-              <button class="btn btn-lg btn-contact btn-block btn-share" [ngClass]="{'btn-langue-active': !isFrLangueSelected}" (click)="selectLanguage('en')">EN</button>
+              <button class="btn btn-contact btn-block btn-share" [ngClass]="{'btn-langue-active': !isFrLangueSelected}" (click)="selectLanguage('en')">EN</button>
             </div>
           </div>          
           <a class="scroll-arrow" [scrollTo]="'#about'" [scrollDuration]="700">
-            <i class="fa fa-angle-down"></i>
+            <i class="fa fa-chevron-circle-down"></i>
           </a>
         </div>                 
       </div>        
