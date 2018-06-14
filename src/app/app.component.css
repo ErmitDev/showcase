@@ -261,7 +261,8 @@
 }
 a.scroll-arrow{
   font-size: 5vw;
-  color: #161617;
+  color: white;
+  text-shadow: 2px 2px 1px #434547;
   height: 50px;
   margin: 0 auto;
   position: absolute;
@@ -275,10 +276,10 @@ a.scroll-arrow{
 }
 a.scroll-arrow:hover{
   opacity: 1;
-  color: #161617;
+  color: white;
 }
 a.scroll-arrow i:hover, a.scroll-arrow i:focus {
-  color: #161617;
+  color: white;
 }
 .btn-black {
   background-color: #434547;
