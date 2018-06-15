@@ -18,6 +18,16 @@
     margin: 0;
   }
 }
+@media (max-width: 768px) {
+  .navbar .navbar-brand{
+    visibility: hidden;
+  }
+  .navbar-default.navbar-transparent{
+    background-color: #ffffff00;
+    border-bottom: none;
+  }
+}
+
 .navbar-toggle {
   outline: 0 !important;
   border: 0;
