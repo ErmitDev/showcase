@@ -1,6 +1,6 @@
 # TODO (par ordre de priorité)
 
-* Revoir l'affichage mobile (Menu de droite, Comparateur, Mon parcours en dehors de l'écran, Panneau GMap)
+* Revoir l'affichage mobile (Menu de droite)
 * Revoir la partie Pro / Particulier
 * Changer la disposition des images
 * Vérifier les traductions

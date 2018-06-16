@@ -17,8 +17,6 @@ agm-map{
 	position: absolute;
 	left: 0;
 	z-index: 3;
-	padding: 20px 20px 20px 60px;
-	width: 28%;
 	background-color: #FFFFFF;
 	top: 50px;
 	padding: 20px;
@@ -35,9 +33,25 @@ agm-map{
   }
 }
 
+@media(max-width:767px){
+  .address-container .btn.btn-contact.btn-share{    
+     padding: 10px 10px 10px 24px;     
+  }
+  .contact-container .address-container {    
+    position: relative;
+  }
+}
+
+@media(max-width:720px){
+  .socialNetwork{
+    visibility: hidden;
+  }
+}
+
+
+
 .contact-container .address-container .address{
 	text-align: center;    
-	margin-top: 40px;
 }
 .address h4 {
   font-size: 1.6em;
