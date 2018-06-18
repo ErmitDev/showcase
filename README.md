@@ -1,6 +1,7 @@
 # TODO (par ordre de priorité)
 
 * Changer la disposition des images
+* Voir pour le réferencement google
 * Intégrer le logo à plusieurs endroits
 * Vérifier les traductions
 * Amélioration de la card "Mon parcours" (Notamment décalage image/cadre sur résolution plus courte)
