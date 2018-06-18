@@ -12,22 +12,26 @@ export class MenuComponent implements OnInit {
   isOutsideView : Boolean;    
   ss : SharedService;
   subscription : null;
+  subscription2 : null;
 
   constructor(ss: SharedService) { 
-  	this.company = "Graphite Paysage";
-  	this.rightMenuDisplayed = false;
-    this.isOutsideView = false;
   	this.ss = ss;
+  	this.company = "Graphite Paysage";
+  	this.rightMenuDisplayed = this.ss.isRightMenuDisplayed();
+    this.isOutsideView = false;
   }
 
   ngOnInit() {
     this.subscription = this.ss.getIfIsOutsideView()
       .subscribe(item => this.isOutsideView=item);
+
+    this.subscription2 = this.ss.getIfMenuDisplayed()
+      .subscribe(item => this.rightMenuDisplayed=item);
   }
 
   toggleMenu(){
-  	this.rightMenuDisplayed = !this.rightMenuDisplayed;
-  	this.ss.toggleMenuDisplayed(this.rightMenuDisplayed);
+  	// this.rightMenuDisplayed = !this.rightMenuDisplayed;
+    this.ss.toggleMenuDisplayed();
   }
 
 }

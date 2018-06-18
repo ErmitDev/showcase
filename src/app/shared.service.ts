@@ -4,11 +4,19 @@ import { Injectable, Output, EventEmitter } from '@angular/core';
 export class SharedService {
 	@Output() fire: EventEmitter<any> = new EventEmitter();
 	@Output() fire2: EventEmitter<any> = new EventEmitter();
+	rightMenuDisplayed : Boolean;
 
-	constructor() { }
+	constructor() {
+		this.rightMenuDisplayed = false;
+	}
 
-	toggleMenuDisplayed(bool) {
-		this.fire.emit(bool);
+	isRightMenuDisplayed(){
+		return this.rightMenuDisplayed;
+	}
+
+	toggleMenuDisplayed() {
+		this.rightMenuDisplayed = !this.rightMenuDisplayed;
+		this.fire.emit(this.rightMenuDisplayed);
 	}
 
 	getIfMenuDisplayed() {

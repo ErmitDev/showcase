@@ -26,7 +26,7 @@ export class RightMenuComponent implements OnInit {
 
   constructor(ss : SharedService) { 
   	this.ss = ss;
-  	this.rightMenuDisplayed = false;
+  	this.rightMenuDisplayed = this.ss.isRightMenuDisplayed();
   }
 
   ngOnInit() {
@@ -39,6 +39,10 @@ export class RightMenuComponent implements OnInit {
       return 'in';
     else
       return 'out';
+  }
+
+  closeMenu = function(){    
+  	this.ss.toggleMenuDisplayed(false);
   }
 
 }
