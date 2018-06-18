@@ -4,5 +4,4 @@
 * Revoir la partie Pro / Particulier
 * Changer la disposition des images
 * Vérifier les traductions
-* Amélioration de la card "Mon parcours"
-* Correction de l'affichage quand le menu s'ouvre (décalage sur la gauche trop important sur petit écran)
+* Amélioration de la card "Mon parcours" (Notamment décalage image/cadre sur résolution plus courte)
