@@ -1,7 +1,7 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div [ngClass]="{'nav-open': rightMenuDisplayed}">
   <app-menu></app-menu>
-  <div class="wrapper">
+  <div class="wrapper" (click)="toggleMenu()">
     <div class="section section-header" 
             in-view (inview)="animateTopMenu($event)"  
             [offset]="[0, 0, -65, 0]">

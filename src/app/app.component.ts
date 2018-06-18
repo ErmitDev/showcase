@@ -47,6 +47,12 @@ export class AppComponent{
     }
   }
 
+  toggleMenu(){
+    if(this.ss.isRightMenuDisplayed()){
+      this.ss.toggleMenuDisplayed();
+    }
+  }
+
   selectLanguage = function(language){
     this.translate.use(language);
     if(language != 'fr'){

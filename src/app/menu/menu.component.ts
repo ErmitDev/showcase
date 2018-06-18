@@ -30,7 +30,6 @@ export class MenuComponent implements OnInit {
   }
 
   toggleMenu(){
-  	// this.rightMenuDisplayed = !this.rightMenuDisplayed;
     this.ss.toggleMenuDisplayed();
   }
 
