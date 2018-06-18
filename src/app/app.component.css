@@ -429,3 +429,7 @@ input[type=range]:focus::-moz-range-thumb {
 .box-shadowed{  
   box-shadow: black 5px 5px 10px;
 }
+.li-or{
+  font-size: larger;    
+  margin: 0px 0px 10px -25px;
+}
