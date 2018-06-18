@@ -426,3 +426,6 @@ input[type=range]:focus::-moz-range-thumb {
   color:#777777;
   font-style: italic;
 }
+.box-shadowed{  
+  box-shadow: black 5px 5px 10px;
+}
