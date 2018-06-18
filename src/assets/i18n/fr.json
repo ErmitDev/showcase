@@ -11,6 +11,7 @@
 	"Subtitle" : "Ensemble, construisons votre projet",
 	"Introduction section 1": "Dessinatrice paysagiste ayant travaillé pour le domaine publique ainsi que pour le privé, je vous assisterai pour tous vos projets d'aménagements extérieurs. Nous ferons ensemble un diagnostic de l'existant et un point sur vos besoins. Je pourrai ainsi monter un dossier complet vous présentant le projet. Basée dans la région PACA, je pourrai me déplacer pour les projets concernant cette région. Il est aussi possible de travailler à distance via photos et plans.",
 	
+	"Professional Title" : "Vous êtes un professionel ?",
 	"Professional Text":"Si votre entreprise n'a pas d'infographiste et que vous voulez présenter un projet structuré et imagé à vos clients, je vous propose mes services. Nous travaillerons ensemble afin de constituer un dossier complet :",
 	"Professional Text Elem 1" : "Plans et coupes techniques",
 	"Professional Text Elem 2" : "Plans texturés",
@@ -19,6 +20,7 @@
 	"Professional Text Elem 5" : "Dessins du projet",
 	"Professional Text Elem 6" : "Palettes végétales",
 
+	"Private Title" : "Vous êtes un particulier ?",
  	"Private Text":"Vous voulez aménager votre jardin ? Vous cherchez des idées ? Je suis là pour vous aider dans la conception de cet espace de vie. Grâce à un suivi personnalisé nous construirons votre projet. Une fois le dossier finalisé :",
  	"Private Text Elem 1":"Je vous suggère des entreprises et fais faire des devis pour trouver le choix le plus intéressant pour vous.",
 	"Private Text Elem 2":"ou",

@@ -11,6 +11,7 @@
 	"Subtitle" : "Together, design your project",
 	"Introduction section 1": "As a landscape designer, I worked for public and private partners. I will assist you for all your landscaping projects. Together, we will build your project, then, I will show you the render in several formats : photo montage, drawing, plan, 3D view, plant pallet. So, you will have a complete folder, giving you a global overview of your project.",
 	
+	"Professional Title" : "Vous êtes un professionel ?",
 	"Professional Text":"Si votre entreprise n'a pas d'infographiste et que vous voulez présenter un projet structuré et imagé à vos clients, je vous propose mes services. Nous travaillerons ensemble afin de constituer un dossier complet :",
 	"Professional Text Elem 1" : "Plans et coupes techniques",
 	"Professional Text Elem 2" : "Plans texturés",
@@ -19,6 +20,7 @@
 	"Professional Text Elem 5" : "Dessins du projet",
 	"Professional Text Elem 6" : "Palettes végétales",
 
+	"Private Title" : "Vous êtes un particulier ?",
  	"Private Text":"Vous voulez aménager votre jardin ? Vous cherchez des idées ? Je suis là pour vous aider dans la conception de cet espace de vie. Grâce à un suivi personnalisé nous construirons votre projet. Une fois le dossier finalisé :",
  	"Private Text Elem 1":"Je vous suggère des entreprises et fais faire des devis pour trouver le choix le plus intéressant pour vous.",
 	"Private Text Elem 2":"ou",

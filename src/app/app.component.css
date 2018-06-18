@@ -37,6 +37,21 @@
   display: block;
   background-color: #FFFFFF;
 }
+.section.section-2 .text-area{
+  background-color: #292b2c;
+}
+.section.section-2 .text-area .title{
+  color: #FFFFFF;
+}
+.section.section-2 .text-area .card{
+  background-color: #292b2c;
+}
+.section.section-2 .text-area h3{
+  color: #FFFFFF;
+}
+.section.section-2 .text-area p{
+  color: #a2a2a2;
+}
 .section .subtitle{
   font-size: 2vw;
 }
@@ -150,12 +165,8 @@
 }
 .section-projet .card ul{
   text-align: left;
-  margin-left: 10%;
   margin-top: 14px;
-}
-.section-projet .card span{
-  text-align: justify;
-  text-indent: 10%;
+  font-weight: 500;
 }
 .add-animation{
   opacity: 0;
@@ -205,6 +216,10 @@
 }
 .card h3 {
   text-transform: capitalize;
+}
+.card-dimension-custom{
+  width: 8rem;
+  margin: auto;
 }
 .section-4, .btn-group-custom {
   position: relative;
