@@ -1,9 +1,7 @@
 # TODO (par ordre de priorité)
 
 * Voir pour le réferencement google
-* Intégrer le logo à plusieurs endroits
 * Vérifier les traductions
-* Amélioration de la card "Mon parcours" (Notamment décalage image/cadre sur résolution plus courte)
+* Compléter les liens réseau sociaux / téléphone
 * Menu de droite, adapté le comportement selon la résolution
 * Améliorer la lisibilité du menu haut
-* Améliorer la partie Pro / Particulier
