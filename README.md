@@ -1,6 +1,5 @@
 # TODO (par ordre de priorité)
 
-* Changer la disposition des images
 * Voir pour le réferencement google
 * Intégrer le logo à plusieurs endroits
 * Vérifier les traductions
