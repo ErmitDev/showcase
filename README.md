@@ -1,7 +1,6 @@
 # TODO (par ordre de priorité)
 
-* Voir pour le réferencement google
-* Compléter les liens réseau sociaux / téléphone
+* Ajouter les métadonnées pour le crawler google
 * Menu de droite, adapté le comportement selon la résolution
 * Améliorer la lisibilité du menu haut
 * Ajuster les traductions
