@@ -42,7 +42,7 @@
         <div class="container">
           <div class="row">
             <div class="title">
-              <h2 translate [translateParams]="{company: company}">About Company <img class="md-logo" src="/assets/images/logo-graphite.png"></h2>
+              <h2 translate [translateParams]="{company: company}"><img class="md-logo" src="/assets/images/logo-graphite.png"> About Company</h2>
               <div class="separator-container">
                 <div class="separator line-separator">
                   ∎
@@ -241,7 +241,7 @@
               </div>
               <div class="row" in-view (inview)="animateRow($event, 3)">
                 <div class="card add-animation animation box-shadowed" [ngClass]="{'animate': rowInView[3]}" >
-                  <div class="row">
+                  <div class="row" style="margin-bottom: -1px">
                     <div class="col-md-4">  
                       <div class="card-img-left">                          
                       </div>                             
