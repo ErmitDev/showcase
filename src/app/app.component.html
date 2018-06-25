@@ -6,7 +6,7 @@
             in-view (inview)="animateTopMenu($event)"  
             [offset]="[0, 0, -65, 0]">
       <div class="parallax pattern-image">
-        <img  src="/assets/images/bg.jpg">
+        <img  src="/assets/images/bg.jpg" alt="Screen title">
       </div>
       <div class="container">
         <div class="content">
@@ -42,7 +42,7 @@
         <div class="container">
           <div class="row">
             <div class="title">
-              <h2 translate [translateParams]="{company: company}"><img class="md-logo" src="/assets/images/logo-graphite.png"> About Company</h2>
+              <h2 translate [translateParams]="{company: company}"><img class="md-logo" src="/assets/images/logo-graphite.png" alt="Graphite Paysage's Logo"> About Company</h2>
               <div class="separator-container">
                 <div class="separator line-separator">
                   ∎
@@ -71,7 +71,7 @@
             <div class="row">
               <div class="col-md-6">                
                 <div class="card">
-                  <img src="/assets/images/pro.png" class="card-img-top card-dimension-custom">
+                  <img src="/assets/images/pro.png" class="card-img-top card-dimension-custom"  alt="professional icon">
                   <div class="card-body">
                     <h5 class="card-title" translate>Professional Title</h5>
                     <span class="card-text" translate>Professional Text</span>
@@ -89,7 +89,7 @@
               </div>
               <div class="col-md-6">
                 <div class="card">
-                  <img src="/assets/images/private.png" class="card-img-top card-dimension-custom">
+                  <img src="/assets/images/private.png" class="card-img-top card-dimension-custom" alt="private individual icon">
                   <div class="card-body">
                     <h5 class="card-title" translate>Private Title</h5>
                     <span class="card-text" translate>Private Text</span>    
@@ -115,12 +115,12 @@
             <div class="row" in-view (inview)="animateRow($event, 0)">
               <div class="col-md-6">
                 <div class="card add-animation animation" [ngClass]="{'animate': rowInView[0]}">
-                  <img src="/assets/images/hand-drawing-3.jpg">
+                  <img src="/assets/images/hand-drawing-3.jpg" alt="Handdrawing with plants description">
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="card add-animation animation" [ngClass]="{'animate': rowInView[0]}">
-                  <img src="/assets/images/montage-2.jpg">
+                  <img src="/assets/images/montage-2.jpg" alt="Photomontage">
                 </div>
               </div>
             </div>
@@ -128,15 +128,15 @@
             <div class="row" in-view (inview)="animateRow($event, 1)">
               <div class="col-md-8">
                 <div class="card add-animation animation" [ngClass]="{'animate': rowInView[1]}">
-                  <img src="/assets/images/hand-drawing-1.jpg">
+                  <img src="/assets/images/hand-drawing-1.jpg" alt="Handdrawing">
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="card add-animation animation" [ngClass]="{'animate': rowInView[1]}">
-                  <img src="/assets/images/montage-3.jpg">
+                  <img src="/assets/images/montage-3.jpg" alt="Photomontage">
                 </div>
                 <div class="card add-animation animation" [ngClass]="{'animate': rowInView[1]}">
-                    <img src="/assets/images/hand-drawing-2.jpg">
+                    <img src="/assets/images/hand-drawing-2.jpg" alt="Handdrawing">
                   </div>
               </div>
             </div>            
@@ -144,12 +144,12 @@
             <div class="row" in-view (inview)="animateRow($event, 2)">
               <div class="col-md-6">
                 <div class="card add-animation animation" [ngClass]="{'animate': rowInView[2]}">
-                  <img src="/assets/images/montage-1.jpg">
+                  <img src="/assets/images/montage-1.jpg" alt="Photomontage">
                 </div>
               </div>            
               <div class="col-md-6">
                 <div class="card add-animation animation" [ngClass]="{'animate': rowInView[2]}">
-                  <img src="/assets/images/montage-4.jpg">
+                  <img src="/assets/images/montage-4.jpg" alt="3D rendering with Sketchup">
                 </div>
               </div>
             </div>
@@ -250,7 +250,7 @@
                       <p translate>Resume Text 1</p>              
                       <p translate>Resume Text 2</p>              
                       <p translate>Resume Text 3</p>
-                      <img class="logo-parcours" src="/assets/images/logo-graphite-full.png">
+                      <img class="logo-parcours" src="/assets/images/logo-graphite-full.png" alt="Graphite Paysage's logo">
                     </div>
                   </div>                   
                 </div>
@@ -266,7 +266,7 @@
     <footer class="footer footer-color-black">
       <div class="container">
         <div class="copyright" translate>
-          <img class="sm-logo" src="/assets/images/logo-graphite.png">
+          <img class="sm-logo" src="/assets/images/logo-graphite.png" alt="Graphite Paysage's logo">
           Contribution
         </div>
       </div>
