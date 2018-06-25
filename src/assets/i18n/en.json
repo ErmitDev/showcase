@@ -8,11 +8,11 @@
 	"Resume" : "My career",
 	"Contact" : "Contact Me",
 
-	"Subtitle" : "Together, design your project",
-	"Introduction section 1": "As a landscape designer, I worked for public and private partners. I will help you for all your landscaping projects. Together, we will build your project, then, I will show you the render in several formats : photomontage, drawing, plan, 3D view, plant pallet. So, you will have a complete folder, giving you a global overview of your project.",
+	"Subtitle" : "Designing your project - together",
+	"Introduction section 1": "As a landscape designer, I worked for public and private partners. I will help you with all your landscaping projects. We will build your project together and then I will show you the rendering in several formats : photomontage, drawing, plan, 3D view, plant pallet. Thus, you will have a comprehensive file giving you a global overview of your project. Based in the PACA region, I will be able to come in person for projects in this region. It is also possible to do remote work via pictures and plans.",
 	
 	"Professional Title" : "Are you a professional ?",
-	"Professional Text":"If there isn't any ladnscape design in your company, and you have the will to show a structured and visual project to your customers, I offer you my services. We will work together with the aim of building a complete file :",
+	"Professional Text":"If there is no landscape designer in your company and you want to show a structured and visual project to your customers, I offer you my services. We will work together to build a comprehensive file :",
 	"Professional Text Elem 1" : "Sectional drawings",
 	"Professional Text Elem 2" : "Textured plans",
 	"Professional Text Elem 3" : "Photomontages",
@@ -20,23 +20,23 @@
 	"Professional Text Elem 5" : "Hand-drawings",
 	"Professional Text Elem 6" : "Plant palet",
 
-	"Private Title" : "Are you a private person ?",
- 	"Private Text":"Do you want to landscape your garden ? You are looking for ideas ? I'm here to support you for the design of this living space. With a customized follow-up, we will build your project. Once the file finalized :",
- 	"Private Text Elem 1":"I will looking for the most attractive companies, and I will ask for an estimate of costs.",
+	"Private Title" : "Are you a private individual ?",
+ 	"Private Text":"Wishing to landscape your garden ? Looking for ideas ? I'm here to support you for the design of this living space. With a customized follow-up, we will build your project. Once the file is finalized :",
+ 	"Private Text Elem 1":"I will look for the most attractive companies, and I will ask for cost estimates.",
 	"Private Text Elem 2":"or",
 	"Private Text Elem 3":"I will provide you support to do the realization yourself.",
 
 	"Diagnostic Title" : "Diagnostic",	
-	"Diagnostic Text" : "I analyze the existing land and his constraints. I take into account your desires and your needs, to create a garden going beyond your expectations.",
+	"Diagnostic Text" : "I analyze the existing land and its constraints. I take into account your desires and your needs, to create a garden that fully corresponds to your expectations.",
 	
 	"Project Title" : "Project",
 	"Project Text" : "Thanks to several medias ( plans, photomontages, etc. ) you will visualize directly your project, and get a better apprehension of this new space.",
 	
-	"Advice Title" : "Technical  advices",
-	"Advice Text" :"I will help you to choose the plants, in order to keep the project well adapted to the climate, and I will guide you to select the best materials to build a harmonious space.",	
+	"Advice Title" : "Technical  Advice",
+	"Advice Text" :"I will help you choose the plants to keep the project consistent with the climate, and I will guide you in order to select the best materials to build a harmonious space.",	
 	
-	"Resume Text 1" : "With the professional degree 'Landscape designer, with infography option', I first work as draughtswoman for public projects in Normandie.",
-	"Resume Text 2" : "Then  I moved to Les Alpes maritimes where I worked as draughtswoman but also as landscape worker. This experience allow me to develop my technical knowledges.",	
+	"Resume Text 1" : "With the professional degree in Landscape Design and Infographics, I first worked as draughtswoman for public projects in Normandie.",
+	"Resume Text 2" : "Then I moved to Les Alpes maritimes where I worked as a draughtswoman but also as a landscape worker. This experience allowed me to develop my technical knowledge.",	
 	"Resume Text 3" : "With this expertise, I decided to create Graphite Paysage to have more challenges to deal with, and support you in every aspects of your project.",
 
 
