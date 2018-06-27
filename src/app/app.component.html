@@ -1,4 +1,3 @@
-<!--The content below is only a placeholder and can be replaced.-->
 <div [ngClass]="{'nav-open': rightMenuDisplayed}">
   <app-menu></app-menu>
   <div class="wrapper" (click)="toggleMenu()">
@@ -271,7 +270,9 @@
         </div>
       </div>
     </footer>
-  </div>
+  </div>  
   <app-right-menu></app-right-menu>
+</div>
+<div class="backdrop backdrop-transition" [ngClass]="{'backdrop-black': rightMenuDisplayed}">  
 </div>
 

@@ -1,6 +1,9 @@
 .full-logo{
   max-height: 40px;
 }
+.navbar{  
+  z-index: 1032;
+}
 .navbar .navbar-brand {
   font-size: 1.5vh;
   font-family: "Slim-Joe";
