@@ -1,6 +1,6 @@
 <div [ngClass]="{'nav-open': rightMenuDisplayed}">
   <app-menu></app-menu>
-  <div class="wrapper" (click)="toggleMenu()">
+  <div class="wrapper">
     <div class="section section-header" 
             in-view (inview)="animateTopMenu($event)"  
             [offset]="[0, 0, -65, 0]">
@@ -273,6 +273,6 @@
   </div>  
   <app-right-menu></app-right-menu>
 </div>
-<div class="backdrop backdrop-transition" [ngClass]="{'backdrop-black': rightMenuDisplayed}">  
+<div class="backdrop backdrop-transition" [ngClass]="{'backdrop-black': rightMenuDisplayed}" (click)="toggleMenu()">  
 </div>
 
