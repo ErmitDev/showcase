@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { trigger,style,transition,animate,keyframes,query,stagger,group, state, animateChild } from '@angular/animations';
 import { SharedService } from '../shared.service';
+import { WindowScrolling } from "../window-scrolling";
 
 @Component({
   selector: 'app-right-menu',
@@ -23,10 +24,12 @@ export class RightMenuComponent implements OnInit {
   ss : SharedService;
   rightMenuDisplayed : Boolean;  
   subscription : null;
+  private windowScrolling: WindowScrolling;
 
-  constructor(ss : SharedService) { 
+  constructor(ss : SharedService, windowScrolling: WindowScrolling) { 
   	this.ss = ss;
   	this.rightMenuDisplayed = this.ss.isRightMenuDisplayed();
+    this.windowScrolling = windowScrolling;
   }
 
   ngOnInit() {
@@ -42,7 +45,8 @@ export class RightMenuComponent implements OnInit {
   }
 
   closeMenu = function(){    
-  	this.ss.toggleMenuDisplayed(false);
+    this.ss.toggleMenuDisplayed(false);    
+    this.windowScrolling.enable();
   }
 
 }
