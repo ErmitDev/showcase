@@ -7,7 +7,7 @@ export class SharedService {
 	rightMenuDisplayed : Boolean;
 
 	constructor() {
-		this.rightMenuDisplayed = false;
+		this.rightMenuDisplayed = false;		
 	}
 
 	isRightMenuDisplayed(){

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { SharedService } from '../shared.service';
+import { WindowScrolling } from "../window-scrolling";
 
 @Component({
   selector: 'app-menu',
@@ -13,12 +14,14 @@ export class MenuComponent implements OnInit {
   ss : SharedService;
   subscription : null;
   subscription2 : null;
+  private windowScrolling: WindowScrolling;
 
-  constructor(ss: SharedService) { 
+  constructor(ss: SharedService, windowScrolling: WindowScrolling) { 
   	this.ss = ss;
   	this.company = "Graphite Paysage";
   	this.rightMenuDisplayed = this.ss.isRightMenuDisplayed();
     this.isOutsideView = false;
+    this.windowScrolling = windowScrolling;
   }
 
   ngOnInit() {
@@ -30,7 +33,12 @@ export class MenuComponent implements OnInit {
   }
 
   toggleMenu(){
-    this.ss.toggleMenuDisplayed();
+    this.ss.toggleMenuDisplayed();   
+    if(this.rightMenuDisplayed){
+      this.windowScrolling.disable();
+    }else{
+      this.windowScrolling.enable();
+    } 
   }
 
 }
