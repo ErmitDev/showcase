@@ -85,6 +85,9 @@ p {
     padding: 14px 30px;
     font-weight: 400;
 }
+.cursor-pointer{
+  cursor: pointer;
+}
 .color-white{
 	color:#FFFFFF;
 }
