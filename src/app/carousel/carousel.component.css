@@ -36,4 +36,7 @@
   .modal-content .modal-body{
       padding: 0;
   }
+  h3, p{
+    text-shadow: 1px 1px 1px #292b2c;
+  }
  

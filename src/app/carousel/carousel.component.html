@@ -6,50 +6,50 @@
     </button>
   </div>
   <div class="modal-body">    
-      <ngb-carousel>
-          <ng-template ngbSlide>
+      <ngb-carousel #carousel>
+          <ng-template ngbSlide id="slide-0">
             <img src="/assets/images/hand-drawing-3.jpg" alt="Handdrawing with plants description">
             <div class="carousel-caption">
               <h3>First slide label</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </div>
           </ng-template>
-          <ng-template ngbSlide>
+          <ng-template ngbSlide id="slide-1">
               <img src="/assets/images/montage-2.jpg" alt="Photomontage">
               <div class="carousel-caption">
                 <h3>Second slide label</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
           </ng-template>
-          <ng-template ngbSlide>
+          <ng-template ngbSlide id="slide-2">
             <img src="/assets/images/hand-drawing-1.jpg" alt="Handdrawing">
             <div class="carousel-caption">
               <h3>Second slide label</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
           </ng-template>
-          <ng-template ngbSlide>
+          <ng-template ngbSlide id="slide-3">
             <img src="/assets/images/montage-3.jpg" alt="Photomontage">
             <div class="carousel-caption">
               <h3>Second slide label</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
           </ng-template>
-          <ng-template ngbSlide>
+          <ng-template ngbSlide id="slide-4">
             <img src="/assets/images/hand-drawing-2.jpg" alt="Handdrawing">
             <div class="carousel-caption">
               <h3>Second slide label</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
           </ng-template>          
-          <ng-template ngbSlide>
+          <ng-template ngbSlide id="slide-5">
             <img src="/assets/images/montage-1.jpg" alt="Photomontage">
             <div class="carousel-caption">
               <h3>Second slide label</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
           </ng-template>         
-          <ng-template ngbSlide>
+          <ng-template ngbSlide id="slide-6">
             <img src="/assets/images/montage-4.jpg" alt="3D rendering with Sketchup">
             <div class="carousel-caption">
               <h3>Second slide label</h3>
@@ -62,7 +62,7 @@
 
 <div class="row" in-view (inview)="animateRow($event, 0)">
     <div class="col-md-6">
-      <div class="card add-animation animation cursor-pointer" [ngClass]="{'animate': rowInView[0]}" (click)="openModal(content)">
+      <div class="card add-animation animation cursor-pointer" [ngClass]="{'animate': rowInView[0]}" (click)="openModal(content); carousel.select('slide-4')">
         <img src="/assets/images/hand-drawing-3.jpg" alt="Handdrawing with plants description">
       </div>
     </div>
@@ -71,33 +71,33 @@
         <img src="/assets/images/montage-2.jpg" alt="Photomontage">
       </div>
     </div>
-  </div>
+</div>
 
-  <div class="row" in-view (inview)="animateRow($event, 1)">
-    <div class="col-md-8">
-      <div class="card add-animation animation cursor-pointer" [ngClass]="{'animate': rowInView[1]}" (click)="openModal(content)">
-        <img src="/assets/images/hand-drawing-1.jpg" alt="Handdrawing">
-      </div>
+<div class="row" in-view (inview)="animateRow($event, 1)">
+  <div class="col-md-8">
+    <div class="card add-animation animation cursor-pointer" [ngClass]="{'animate': rowInView[1]}" (click)="openModal(content)">
+      <img src="/assets/images/hand-drawing-1.jpg" alt="Handdrawing">
     </div>
-    <div class="col-md-4">
-      <div class="card add-animation animation cursor-pointer" [ngClass]="{'animate': rowInView[1]}" (click)="openModal(content)">
-        <img src="/assets/images/montage-3.jpg" alt="Photomontage">
+  </div>
+  <div class="col-md-4">
+    <div class="card add-animation animation cursor-pointer" [ngClass]="{'animate': rowInView[1]}" (click)="openModal(content)">
+      <img src="/assets/images/montage-3.jpg" alt="Photomontage">
+    </div>
+    <div class="card add-animation animation cursor-pointer" [ngClass]="{'animate': rowInView[1]}" (click)="openModal(content)">
+        <img src="/assets/images/hand-drawing-2.jpg" alt="Handdrawing">
       </div>
-      <div class="card add-animation animation cursor-pointer" [ngClass]="{'animate': rowInView[1]}" (click)="openModal(content)">
-          <img src="/assets/images/hand-drawing-2.jpg" alt="Handdrawing">
-        </div>
+  </div>
+</div>            
+
+<div class="row" in-view (inview)="animateRow($event, 2)">
+  <div class="col-md-6">
+    <div class="card add-animation animation cursor-pointer" [ngClass]="{'animate': rowInView[2]}" (click)="openModal(content)">
+      <img src="/assets/images/montage-1.jpg" alt="Photomontage">
     </div>
   </div>            
-
-  <div class="row" in-view (inview)="animateRow($event, 2)">
-    <div class="col-md-6">
-      <div class="card add-animation animation cursor-pointer" [ngClass]="{'animate': rowInView[2]}" (click)="openModal(content)">
-        <img src="/assets/images/montage-1.jpg" alt="Photomontage">
-      </div>
-    </div>            
-    <div class="col-md-6">
-      <div class="card add-animation animation cursor-pointer" [ngClass]="{'animate': rowInView[2]}"> (click)="openModal(content)"
-        <img src="/assets/images/montage-4.jpg" alt="3D rendering with Sketchup">
-      </div>
+  <div class="col-md-6">
+    <div class="card add-animation animation cursor-pointer" [ngClass]="{'animate': rowInView[2]}" (click)="openModal(content)"> 
+      <img src="/assets/images/montage-4.jpg" alt="3D rendering with Sketchup">
     </div>
   </div>
+</div>
