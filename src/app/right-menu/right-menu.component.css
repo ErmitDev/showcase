@@ -39,6 +39,7 @@
 }
 .navbar-collapse .nav > li > a:hover, .navbar-collapse .nav > li > a.active {
   color: #c5a47e;
+  text-decoration: none;
 }
 .navbar-collapse .nav > li.social-links {
   text-align: center;
@@ -47,6 +48,7 @@
 .navbar-collapse .nav > li.social-links > a {
   font-size: 18px;
   padding: 24px 15px;
+  text-decoration: none;
 }
 .navbar-collapse::after {
   top: 0;
