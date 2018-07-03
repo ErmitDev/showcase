@@ -1,0 +1,35 @@
+<!-- <div class="modal-header">
+  <h4 class="modal-title">Modal title</h4>
+  <button type="button" class="close" aria-label="Close" (click)="close()">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div> -->
+<div class="modal-body" [ngClass]="{'dark-ui': true}">    
+    <ngb-carousel #carousel>
+        <ng-template ngbSlide id="slide-0">
+          <img src="/assets/images/hand-drawing-3.jpg" alt="Handdrawing with plants description">
+          <!-- <div class="carousel-caption"> -->
+            <!-- <h3>First slide label</h3> -->
+            <!-- <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
+          <!-- </div> -->
+        </ng-template>
+        <ng-template ngbSlide id="slide-1">
+            <img src="/assets/images/montage-2.jpg" alt="Photomontage">
+        </ng-template>
+        <ng-template ngbSlide id="slide-2">
+          <img src="/assets/images/hand-drawing-1.jpg" alt="Handdrawing">
+        </ng-template>
+        <ng-template ngbSlide id="slide-3">
+          <img src="/assets/images/montage-3.jpg" alt="Photomontage">
+        </ng-template>
+        <ng-template ngbSlide id="slide-4">
+          <img src="/assets/images/hand-drawing-2.jpg" alt="Handdrawing">
+        </ng-template>          
+        <ng-template ngbSlide id="slide-5">
+          <img src="/assets/images/montage-1.jpg" alt="Photomontage">
+        </ng-template>         
+        <ng-template ngbSlide id="slide-6">
+          <img src="/assets/images/montage-4.jpg" alt="3D rendering with Sketchup">
+        </ng-template>
+    </ngb-carousel>
+</div>

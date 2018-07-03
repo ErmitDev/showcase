@@ -1,19 +1,20 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import {NgbModal, NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
+import { Component, OnInit } from '@angular/core';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { ModalComponent } from './modal/modal.component';
+import { SharedService } from '../shared.service';
 
 @Component({
   selector: 'app-carousel',
   templateUrl: './carousel.component.html',
-  providers: [NgbCarouselConfig],
-  encapsulation: ViewEncapsulation.None,
   styleUrls: ['./carousel.component.css']
 })
-export class CarouselComponent implements OnInit {  
+export class CarouselComponent implements OnInit {
+  ss : SharedService;  
   rowInView : Array<Boolean>;
 
-  constructor(private modalService : NgbModal, config: NgbCarouselConfig) {    
+  constructor(private modalService : NgbModal, ss : SharedService) { 
+    this.ss = ss;   
     this.rowInView = [false, false, false, false];
-    config.interval = 0;
   }
 
   ngOnInit() {
@@ -25,9 +26,9 @@ export class CarouselComponent implements OnInit {
     }
   }
 
-  openModal(content){
-    this.modalService.open(content, {size:"lg", windowClass: 'dark-modal' });
-    console.log(content);
+  openModal(selectedSlide){
+    this.modalService.open(ModalComponent, {size:"lg", windowClass: 'dark-modal' });
+    this.ss.setSlide(selectedSlide);
   }
 
 }
