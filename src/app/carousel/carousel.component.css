@@ -36,7 +36,7 @@
   .modal-content .modal-body{
       padding: 0;
   }
-  h3, p{
+  .modal-body h3,.modal-body p{
     text-shadow: 1px 1px 1px #292b2c;
   }
  
