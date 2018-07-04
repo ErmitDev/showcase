@@ -16,8 +16,8 @@ import { MenuComponent } from './menu/menu.component';
 import { RightMenuComponent } from './right-menu/right-menu.component';
 import { SharedService } from './shared.service';
 import { ContactMapComponent } from './contact-map/contact-map.component';
-import { CarouselComponent } from './carousel/carousel.component';
-import { ModalComponent } from './carousel/modal/modal.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { ModalComponent } from './gallery/modal/modal.component';
 
 export function createTranslateLoader(http: HttpClient) {
     return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -29,7 +29,7 @@ export function createTranslateLoader(http: HttpClient) {
     MenuComponent,
     RightMenuComponent,
     ContactMapComponent,
-    CarouselComponent,
+    GalleryComponent,
     ModalComponent
   ],
   imports: [

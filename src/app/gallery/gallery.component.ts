@@ -4,11 +4,11 @@ import { ModalComponent } from './modal/modal.component';
 import { SharedService } from '../shared.service';
 
 @Component({
-  selector: 'app-carousel',
-  templateUrl: './carousel.component.html',
-  styleUrls: ['./carousel.component.css']
+  selector: 'app-gallery',
+  templateUrl: './gallery.component.html',
+  styleUrls: ['./gallery.component.css']
 })
-export class CarouselComponent implements OnInit {
+export class GalleryComponent implements OnInit {
   ss : SharedService;  
   rowInView : Array<Boolean>;
 
