@@ -4,7 +4,7 @@
     <span aria-hidden="true">&times;</span>
   </button>
 </div> -->
-<div class="modal-body" [ngClass]="{'dark-ui': true}">    
+<div class="modal-body" [ngClass]="{'dark-ui': isDarkUiNeeded(carousel.activeId)}">    
     <ngb-carousel #carousel>
         <ng-template ngbSlide id="slide-0">
           <img src="/assets/images/hand-drawing-3.jpg" alt="Handdrawing with plants description">

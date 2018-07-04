@@ -10,11 +10,14 @@ import { SharedService } from '../../shared.service';
 })
 export class ModalComponent implements OnInit, AfterViewInit {
   ss: SharedService;
+  whitePicture: Array<string>;
   @ViewChild('carousel') carousel: NgbCarousel;
+
 
   constructor(public activeModal: NgbActiveModal, public config: NgbCarouselConfig, private cdRef : ChangeDetectorRef, ss: SharedService) {   
     config.interval = 0;
     this.ss = ss;
+    this.whitePicture = ['slide-2', 'slide-3', 'slide-4', 'slide-5'];
   }
 
   ngOnInit() {    
@@ -28,6 +31,10 @@ export class ModalComponent implements OnInit, AfterViewInit {
 
   close(){
     this.activeModal.close();
+  }
+
+  isDarkUiNeeded(id){
+    return this.whitePicture.indexOf(id) !== -1;
   }
 
 }
