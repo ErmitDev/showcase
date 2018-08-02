@@ -8,3 +8,12 @@
 .modal-body h3,.modal-body p{
     text-shadow: 1px 1px 1px #292b2c;
 }
+.modal-header-custom{
+    background-color: white;
+    border: none;
+    padding: 0;
+}
+.modal-header-custom .close{
+    color: #292b2c;    
+    margin-left: 97%;
+}
