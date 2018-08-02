@@ -5,6 +5,7 @@ export class SharedService {
 	@Output() fire: EventEmitter<any> = new EventEmitter();
 	@Output() fire2: EventEmitter<any> = new EventEmitter();
 	rightMenuDisplayed : Boolean;
+	slide: string;
 
 	constructor() {
 		this.rightMenuDisplayed = false;		
@@ -29,6 +30,14 @@ export class SharedService {
 
 	getIfIsOutsideView() {
 		return this.fire2;
+	}
+
+	setSlide(slide){
+		this.slide = slide;
+	}
+
+	getSlide(){
+		return this.slide;
 	}
 
 }

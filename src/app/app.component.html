@@ -106,53 +106,13 @@
         </div>
       </div>
     </div>
+
+
     <div class="section section-image" id="images">
       <div class="container" >
         <div class="row">
           <div class="col-md-12">
-
-            <div class="row" in-view (inview)="animateRow($event, 0)">
-              <div class="col-md-6">
-                <div class="card add-animation animation" [ngClass]="{'animate': rowInView[0]}">
-                  <img src="/assets/images/hand-drawing-3.jpg" alt="Handdrawing with plants description">
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="card add-animation animation" [ngClass]="{'animate': rowInView[0]}">
-                  <img src="/assets/images/montage-2.jpg" alt="Photomontage">
-                </div>
-              </div>
-            </div>
-
-            <div class="row" in-view (inview)="animateRow($event, 1)">
-              <div class="col-md-8">
-                <div class="card add-animation animation" [ngClass]="{'animate': rowInView[1]}">
-                  <img src="/assets/images/hand-drawing-1.jpg" alt="Handdrawing">
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card add-animation animation" [ngClass]="{'animate': rowInView[1]}">
-                  <img src="/assets/images/montage-3.jpg" alt="Photomontage">
-                </div>
-                <div class="card add-animation animation" [ngClass]="{'animate': rowInView[1]}">
-                    <img src="/assets/images/hand-drawing-2.jpg" alt="Handdrawing">
-                  </div>
-              </div>
-            </div>            
-
-            <div class="row" in-view (inview)="animateRow($event, 2)">
-              <div class="col-md-6">
-                <div class="card add-animation animation" [ngClass]="{'animate': rowInView[2]}">
-                  <img src="/assets/images/montage-1.jpg" alt="Photomontage">
-                </div>
-              </div>            
-              <div class="col-md-6">
-                <div class="card add-animation animation" [ngClass]="{'animate': rowInView[2]}">
-                  <img src="/assets/images/montage-4.jpg" alt="3D rendering with Sketchup">
-                </div>
-              </div>
-            </div>
-
+            <app-gallery></app-gallery>  
           </div>
         </div>
       </div>
