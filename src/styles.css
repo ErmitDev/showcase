@@ -141,3 +141,24 @@ p {
 .dark-ui .carousel-indicators .active {
   background-color: #dedede;
 }
+
+.modal-dialog-centered{
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-align:center;
+  align-items:center;
+  min-height:calc(100% - (.5rem * 2))
+}
+.modal-dialog-centered::before{
+  display:block;
+  height:calc(100vh - (.5rem * 2));
+  content:""
+}
+@media (min-width:576px){
+  .modal-dialog-centered{
+    min-height:calc(100% - (1.75rem * 2))
+  }
+  .modal-dialog-centered::before{
+    height:calc(100vh - (1.75rem * 2))
+  }
+}
