@@ -11,7 +11,7 @@
 .modal-header-custom{
     background-color: white;
     border: none;
-    padding: 0;
+    padding: 0 5px 0 5px;
 }
 .modal-header-custom .close{
     color: #292b2c;    

@@ -27,7 +27,7 @@ export class GalleryComponent implements OnInit {
   }
 
   openModal(selectedSlide){
-    this.modalService.open(ModalComponent, {size:"lg", windowClass: "dark-modal", centered: true  });
+    this.modalService.open(ModalComponent, {size:"lg", windowClass: "dark-modal"});
     this.ss.setSlide(selectedSlide);
   }
 
