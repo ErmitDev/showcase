@@ -1,0 +1,34 @@
+<!-- <div class="modal-header modal-header-custom">
+  <button type="button" class="close" aria-label="Close" (click)="close()">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div> -->
+<div class="modal-body" [ngClass]="{'dark-ui': isDarkUiNeeded(carousel.activeId)}">    
+    <ngb-carousel #carousel>
+        <ng-template ngbSlide id="slide-0">
+          <img src="/assets/images/hand-drawing-3.jpg" alt="Handdrawing with plants description">
+          <!-- <div class="carousel-caption"> -->
+            <!-- <h3>First slide label</h3> -->
+            <!-- <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
+          <!-- </div> -->
+        </ng-template>
+        <ng-template ngbSlide id="slide-1">
+            <img src="/assets/images/montage-2.jpg" alt="Photomontage">
+        </ng-template>
+        <ng-template ngbSlide id="slide-2">
+          <img src="/assets/images/plan-vue-haute.jpg" alt="Plan">
+        </ng-template>
+        <ng-template ngbSlide id="slide-3">
+          <img src="/assets/images/panorama-handdrawing.jpg" alt="Handdrawing">
+        </ng-template>
+        <ng-template ngbSlide id="slide-4">
+          <img src="/assets/images/showroom.jpg" alt="Showroom">
+        </ng-template>          
+        <ng-template ngbSlide id="slide-5">
+          <img src="/assets/images/panorama-villa.jpg" alt="Panorama">
+        </ng-template>         
+        <ng-template ngbSlide id="slide-6">
+          <img src="/assets/images/spiral-garden.jpg" alt="Spiral Garden">
+        </ng-template>
+    </ngb-carousel>
+</div>
